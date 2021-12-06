@@ -1,0 +1,492 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #3F444A;
+	text-align: center;
+}
+h1, h2, h3 {
+	color: #053877;
+	text-align: center;
+	font-weight: 800;
+} 
+
+h3 {
+	color: #0057c2;
+	text-align: center;
+	font-weight: 800;
+} 
+
+a:hover {
+	text-decoration: none;
+}
+
+/*
+Header NavBar
+*/
+header .navbar {
+	width: 100%;
+	padding: 10px;
+}
+
+header .navbar a {
+	margin: 10px;
+}
+
+header .navbar-subitem {
+	font-size: 16px;
+	color: #053877;
+}
+
+header .nav-subitem a {
+	font-size: 15px;
+	color: #053877;
+}
+
+#cartv-logo {
+	width: 40%;
+}
+
+#navbar-custom-cartv {
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.collapsing {
+	transition: 0.5s;
+}
+
+#dropdownMenuLinkProdutos {
+	margin-top: 18px;
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown.show .dropdown-menu {
+    max-height: 350px;
+    opacity: 1;
+}
+
+.dropdown-item {
+	text-align: left;
+}
+
+/*
+Carousel Index
+*/
+.img-carousel-cartv {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    top: 40%;
+    bottom: auto;
+}
+
+.carousel-caption h1 {
+	color: white;
+	text-shadow: 4px 4px 4px black;
+}
+
+.carousel-caption h1 {
+	color: white;
+	text-shadow: 4px 4px 4px black;
+}
+
+.carousel-caption h4 {
+	color: white;
+	text-shadow: 4px 4px 5px black;
+}
+
+.slide .carousel-item {
+	transition: 0.5s;
+}
+
+/*
+Index e WhatsApp
+*/
+#section-whatsapp {
+	position: fixed;
+	bottom: 1.5%;
+	right: 4%;
+	z-index: 3;
+}
+
+#section-whatsapp img {
+	width: 55px;
+}
+
+.section-margin {
+	margin-top: 5%;
+}
+
+.zapalert {
+	font-size: 12px;
+	color: black;
+	background-color: red;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#section-cartv p{
+	font-size: 1.3em;
+	margin-top: 30px;
+}
+
+#section-cartv img{
+	border-radius: 80%;
+}
+
+.cartv-video {
+	margin-top: 40px;
+	width: 720px;
+	height: 404px;
+}
+
+#section-produtos {
+	background: #053877;
+	padding: 40px;
+}
+
+#section-produtos h3 {
+	text-transform: uppercase;
+	letter-spacing: -0.5px;
+	font-size: 1.2em;
+}
+
+#section-produtos p {
+	color: #202020;
+}
+
+#section-produtos img {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.break {
+	padding: 11px;
+}
+
+.box-produtos {
+	margin: 25px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background: #f8f8f8;
+}
+
+.img-box {
+	padding: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#section-parceiros h1 {
+	margin-bottom: 7%;
+}
+
+#section-banner-clientes {
+	height: 100%;
+}
+
+#section-banner-clientes {
+	background: url(../img/Bannerclientes.jpg);
+	position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#section-banner-clientes .banner-clientes-titulo {
+	color: white;
+	position: absolute;
+    bottom: 10%;
+	left: 10%;
+	font-size: 2.4em;
+	font-weight: 800;
+	text-shadow: 2px 2px 2px black;
+}
+
+.section-text {
+	margin: 30px 0px;
+}
+
+.section-text p {
+	margin: 15px 0px;
+	text-align: justify;
+}
+
+/*
+Conteúdos Gerais das Outras Páginas
+*/
+#section-clientes-slider {
+	margin-bottom: 30px;
+}
+
+#section-clientes-slider h3{
+	margin: 30px;
+	color: #053877;
+}
+
+#carousel-clientes {
+	background: #f8f8f8;
+	padding: 20px;
+	border-radius: 10px;
+	height: 450px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#carousel-clientes p {
+	width: 80%;
+	align-items: center;
+	margin: 20px auto 0px auto;
+	text-align: justify;
+}
+
+#carousel-clientes img {
+	max-height: 100px;
+	max-width: 142px;
+	align-self: center;
+	justify-self: center;
+	margin-bottom: 130px;
+}
+
+.carousel-inner-box {
+	height: 300px;
+}
+
+.carousel-inner-img {
+	height: 100px;
+	display: flex;
+}
+
+.box-gestao {
+	margin: 20px auto;
+}
+
+#section-sctv {
+	margin: 40px;
+}
+
+.sctv-txt {
+	z-index: 1;
+	margin-top: -120px;
+	margin-bottom: autopx;
+	font-weight: 500;
+	color: #053877;
+}
+
+.img-produtos-main {
+	height: 200px;
+}
+
+.img-produtos /*SCTV*/ {
+	width: 242px;
+	margin: 80px auto;
+}
+
+.img-produtostop /*SCTV*/ {
+	width: 242px;
+	margin: 0px auto 80px auto;
+}
+
+.img-produtos-sim {
+	width: 142px;
+	margin: 40px;
+}
+
+#section-contato {
+	background: #053877;
+	color: white;
+	padding: 1%;
+	margin-bottom: 0;
+}
+
+#section-contato h3 {
+	color: white;
+
+}
+
+#section-contato2 {
+	background: #053877;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin-bottom: -80px;
+}
+
+#section-contato2 h3 {
+	color: white;
+}
+
+.contato-img {
+	width: 100%;
+	border-radius: 20px;
+	background: white;
+}
+
+.field {
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 3%;
+}
+
+.submit {
+	float: right;
+	padding: 10px 20px;
+	border-radius: 5px;
+
+}
+
+#googlemap {
+	border-radius: 30px;
+}
+
+/*
+Footer
+*/
+footer {
+	margin-top: 80px;
+	padding: 10px;
+	color: white;
+	font-size: 0.7em;
+	background: #303135;
+}
+
+footer h5 {
+	font-size: 1.2em;
+}
+
+.footer-btn {
+ padding: 10px;
+ margin-left: 10%;
+}
+
+/*
+MediaQuery
+*/
+/* Extra Small devices*/
+@media (max-width: 575px) {
+	h1 {
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	.carousel-caption {
+		top: 35%;
+		bottom: auto;
+	}
+	#carousel-cartv .carousel-caption h1 {
+		font-size: 1.8em;
+	}
+	.carousel-caption h4 {
+		font-size: 1em;
+	}
+	.cartv-video {
+		width: 400px;
+		height: 225px;
+	}
+	#section-produtos img {
+		width: 124px;
+	}
+	.img-carousel-cartv {
+		height: 320px;
+	}
+	.footer-btn {
+		margin-left: 0;
+	   }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.9px) {
+	h1 {
+		font-size: 34px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	.carousel-caption {
+		top: 30%;
+		bottom: auto;
+	}
+	#carousel-cartv .carousel-caption h1 {
+		font-size: 2em;
+	}
+	.carousel-caption h4 {
+		font-size: 1em;
+	}
+	.cartv-video {
+		width: 400px;
+		height: 225px;
+	}
+	#section-produtos img {
+		width: 124px;
+	}
+	.img-carousel-cartv {
+		height: 400px;
+	}
+	.footer-btn {
+		margin-left: 0;
+	   }
+	}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.9px) {
+	h1 {
+		font-size: 38px;
+	}
+	#carousel-cartv .carousel-caption h1 {
+		font-size: 2.2em;
+	}
+	.img-carousel-cartv {
+		height: 480px;
+	}
+	.carousel-caption h4 {
+		font-size: 1.4em;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1999.9px) {
+	#carousel-cartv .carousel-caption h1 {
+		font-size: 2.5em;
+	}
+	.img-carousel-cartv {
+		height: 550px;
+	}
+	#cartv-logo {
+		width: 240px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#carousel-cartv .carousel-caption h1 {
+		font-size: 2.5em;
+	}
+	#cartv-logo {
+		width: 240px;
+	}
+}
